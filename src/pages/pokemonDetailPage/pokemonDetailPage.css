@@ -1,0 +1,28 @@
+.detail-page-container {
+    width: 90vw;
+    max-width: 550px;
+    margin: 0 auto;
+    border-radius: 30px 30px 8px 8px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+    background-image:
+        repeating-linear-gradient(150deg,
+            rgba(0, 0, 0, 0.2),
+            rgba(255, 255, 255, 0.1) 10px,
+            transparent 0px,
+            transparent 0px);
+}
+
+.details-card {
+    min-height: 450px;
+    background-color: #FAFAFA;
+    border-radius: 20px 20px 8px 8px;
+    padding: 30px 20px 50px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.error-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

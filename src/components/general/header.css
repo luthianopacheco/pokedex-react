@@ -1,0 +1,8 @@
+.header {
+  background: linear-gradient(to top, #aa0000, #ff0000);
+  padding: 10px 20px;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

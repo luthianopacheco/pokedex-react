@@ -1,0 +1,61 @@
+.nav-tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    position: relative;
+    border-bottom: 1px solid #eee;
+}
+
+.nav-tab-item {
+    position: relative;
+    font-size: 14pt;
+    font-weight: 600;
+    cursor: pointer;
+    color: #555;
+    padding-bottom: 5px;
+    transition: color 0.3s;
+    z-index: 2;
+}
+
+.nav-tab-item.active {
+    color: var(--main-pokemon-color, #ff0000);
+}
+
+.nav-tabs-indicator {
+    position: absolute;
+    bottom: -1px;
+    height: 3px;
+    background-color: var(--main-pokemon-color, #ff0000);
+    transition: transform 0.3s ease, width 0.3s ease, background-color 0.3s ease;
+}
+
+.data-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.data-list li {
+    display: flex;
+    padding: 8px 0;
+    font-size: 12pt;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.data-label {
+    width: 40%;
+    color: #777;
+    font-weight: 500;
+}
+
+.data-value {
+    text-align: right;
+    font-weight: 600;
+}
+
+.evolution-placeholder {
+    text-align: center;
+    margin-top: 10px;
+}
